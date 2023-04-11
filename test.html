@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_quiz.css') }}">
+    <title>Викторина</title>
+</head>
+<body>
+    <div class="test">
+        <h2 class="quest">{{q}}</h2>
+        <form class='test2' action="test" method="post">
+            <input type="hidden" name="q_id" value="{{id}}">
+            {% for ans in ans_list %}
+                <p class="answer">
+                    <input id="radio{{loop.index}}" type="radio" name="ans_text" value="{{ans}}"> 
+                    <label for="radio{{loop.index}}">{{ans}}</label> 
+                </p>
+            {% endfor %}
+
+            <input class="but but2" type="submit" value="Ответить">
+        </form>
+    </div>
+</body>
+</html>
+
+
+

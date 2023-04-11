@@ -1,0 +1,122 @@
+
+
+body{
+    background-image: url(https://funart.pro/uploads/posts/2021-04/thumbs/1618568260_31-funart_pro-p-oboi-fon-bledno-fioletovii-33.jpg);
+}
+
+select{
+    font-size: 20px; 
+    border-radius: 10px; 
+    padding: 5px;
+    margin-bottom:12px;
+    box-shadow: inset #46234e 1px 2px 6px 0px;
+    background-color: #eaddf5;
+    transition: all 250ms ease-out;
+}
+select:hover{
+    /*box-shadow: inset #46234e 1px 2px 6px 0px;*/
+    box-shadow: inset #d3d3d3 3px 4px 6px 0px;
+    background-color: #f3f0f5;
+    
+
+}
+
+.but{
+    font-size: 20px; 
+    border-radius: 10px; 
+    padding: 2px 15px 2px 15px;
+    background-color: #c785b747;
+    transition: all 250ms ease-out;
+}
+
+.but:hover{
+    box-shadow: #46234e 4px 5px 9px 1px;
+}
+
+.start{
+    display: block;
+    background: linear-gradient(153deg, #e9f2f375 20%, #7531807a);
+    border-radius: 30px;   
+    border: 3px solid;
+    padding: 30px;
+    box-shadow: 14px 20px 20px 4px #614d6f;        
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 50%;                            
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.test{
+  display: block;
+  background: linear-gradient(153deg, #e9f2f375 20%, #7531807a);
+  border-radius: 30px;   
+  border: 2px solid;
+  
+  box-shadow: 14px 20px 20px 4px #614d6f;        
+  text-align: center;
+  width: 500px;
+  min-height: 250px;
+  position: absolute;
+  top: 50%;                            
+  left: 50%;
+  /*margin: -250px 0 0 -250px; */
+  transform: translate(-50%, -50%);
+}
+
+.quest{
+  background: linear-gradient(305deg, #e9f2f375 20%, #a371ab7a);
+  padding: 20px;
+  min-height: 50px;
+}
+
+.answer {
+  
+  text-align: center;  
+  font-size: 20px;  
+  background: linear-gradient(182deg, #e9f2f375 20%, #a371ab7a);
+  margin: 5px 0px 5px 0px; 
+  
+}
+
+.answer input[type=radio] {
+  display: none;
+}
+
+.answer label {  
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 5px 0px 5px 0px;
+  transition: all 750ms ease-out;
+}
+.answer label:hover{
+  background-color: #4a0f7473;
+  box-shadow: #46234e 0px 3px 4px 0px;
+  transition: all 350ms ease-out;
+}
+.answer input[type=radio]:checked + label{
+  background-color: #4a0f7473;
+}
+
+.but2{
+  margin: 20px;
+}
+
+.a_but{
+  font-size: 20px; 
+  border-radius: 10px; 
+  padding: 2px 15px 2px 15px;
+  background-color: #c785b747;
+  transition: all 250ms ease-out;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 4px 20px 4px 20px;
+  color:black;
+}
+
+.result{
+  margin-bottom: 30px;
+}
